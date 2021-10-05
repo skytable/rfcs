@@ -38,12 +38,15 @@ The RFC procedure is highlighted below:
     Permission is granted to copy, distribute and/or modify the code examples in the documents
     under the terms of the GNU Affero General Public License, Version 3.0
     or any later version published by the Free Software Foundation.
+    A copy of the license is included in the "LICENSE-AGPL.md" file in this directory or can be
+    found at this URL: https://www.gnu.org/licenses/agpl-3.0.en.html
 
     Permission is granted to copy, distribute and/or modify the documents excluding their code examples
     under the terms of the GNU Free Documentation License, Version 1.3
     or any later version published by the Free Software Foundation;
     with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
-    A copy of the license is included in the LICENSE-GFDL.md file in this directory or at this URL: https://www.gnu.org/licenses/fdl-1.3.en.html
+    A copy of the license is included in the "LICENSE-GFDL.md" file in this directory or can
+    be found at this URL: https://www.gnu.org/licenses/fdl-1.3.en.html
 
 Any code examples in an RFC are distributed under the AGPL-3.0 License, the full text for which can be
 found in the [LICENSE-AGPL.md](./LICENSE-AGPL.md) file in this directory or at this URL: https://www.gnu.org/licenses/agpl-3.0.html.
