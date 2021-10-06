@@ -11,7 +11,8 @@
 
 ## Summary
 
-This RFC proposes to add a versioning policy for Skytable, enhancing reliability and highlighting our versioning guarantees.
+This RFC proposes to add a versioning policy for Skytable, enhancing reliability and highlighting our versioning guarantees. At the same time, it introduces a "clause" for the guaranteed backward 
+compatibility of datasets.
 
 ## Motivation
 
@@ -23,7 +24,7 @@ skyd upgrade --from <old-format-name>
 
 With the release of version 0.7, it became infeasible for us to provide a backward compatibility system like above, but to respect our own commitment, we started providing the Skytable Migration Tool (`sky-migrate`) that enabled users to upgrade their datasets with ease &mdash; by reading their old data folder and migrating it over a network to the new database server.
 
-Again, this reflects our commitment to the reliability of the database and it is fundamental for us to do so because the fact that we found an easier way to store lengths shouldn't mean that our user's data would be put at risk.
+Again, this reflects our commitment to the reliability of the database and it is fundamental for us to do so because the fact that we found an easier way to store lengths shouldn't mean that we put our user's data at risk.
 
 ## Description
 
