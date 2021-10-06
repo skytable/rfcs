@@ -45,7 +45,7 @@ RFC 1, titled the "Versioning Policy" will describe what guarantees Skytable's v
    1. Patch versions can make breaking changes when the changes are small, but have backward-incompatible impacts. **Such releases are heavily discouraged** and **should be used as a last resort**.
    2. Patch versions that _do break_ backward compatibility should explicitly state so in the Changelog.
 6. **Pre-release policy:** All versions released with tags like `alpha.<number>` or `beta.<number>` or `rc.<number>` should **not be considered stable**. These releases are called pre-releases. Examples, of such version names include: `0.7.0-alpha.1`, `0.7.0-rc.1` or `0.6.0-beta.1`.
-7. This RFC also proposes a "**Guaranteed Data Compatibility Policy**".
+7. This RFC also proposes a clause for the "**Guaranteed Backward Compatibility of Data**".
    - This guarantees that all users from earlier versions of the database would be able to migrate their datasets to newer versions using built-in or official tools
    - This migration can be done either through a built in compatibility suite, like the one introduced in 0.6.0 for example or with a migration tool, like the one released in 0.7.0 or with any other tool that will be provided with a release
 
